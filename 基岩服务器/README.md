@@ -1,5 +1,5 @@
 # Minecraft基岩服务器一键开服
-> 最初的版本来自于大佬James A. Chambers，https://github.com/TheRemote/MinecraftBedrockServer
+> 最初的版本来自于大佬James A. Chambers @TheRemote ，https://github.com/TheRemote/MinecraftBedrockServer
 > 我在他的基础上进行本地化二次开发，之后的内容和功能可能与他的不再一致，请注意。
 
 这是一个MC基岩服务器的一键开服工具，我尽可能地减少开设一个Minecraft基岩服务器所需的步骤。
@@ -12,14 +12,16 @@ chmod +x SetupMinecraft.sh
 ./SetupMinecraft.sh
 ```
 
-<b>Tested Distributions</b><br>
--Ubuntu / Ubuntu Server 18.04.2<br>
--Debian Stretch / Buster<br>
-<br>
-<b>Tested Platforms</b><br>
--PC X86_64<br>
--Udoo X86<br>
--Intel Compute Stick<br>
--ARM 64bit (warning: proof of concept, extremely slow)<br>
---Raspberry Pi<br>
---Tinkerboard<br>
+## 已经测试的平台
+
+当前版本： ![基岩服务器建设工具](https://img.shields.io/badge/Version-1.0-green.svg?logo=github)
+
+测试平台 | 测试结果 | 备注
+------------ | ------------- | -------------
+Ubuntu / Ubuntu Server 18.04.2 | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=ubuntu) |
+Debian Stretch / Buster | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=debian) |
+PC X86_64 | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=linux) |
+Udoo X86 | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=Linux) |
+Intel Compute Stick | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=intel) |
+ARM 64bit | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=Ubuntu) | 受限于性能，运行极度缓慢
+Raspberry Pi 3b+ | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=Raspberry-Pi) | 
