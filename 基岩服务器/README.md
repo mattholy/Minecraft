@@ -11,6 +11,7 @@ wget https://raw.githubusercontent.com/mattholy/Minecraft/master/%E5%9F%BA%E5%B2
 chmod +x SetupMinecraft.sh
 ./SetupMinecraft.sh
 ```
+建议在服务器成功启动后再编辑[server.properties](server.properties)
 
 ## 已经测试的平台
 
