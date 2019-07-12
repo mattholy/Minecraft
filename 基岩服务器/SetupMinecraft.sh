@@ -78,7 +78,7 @@ if [ -d "$ServerName" ]; then
   cd ~
   cd minecraftbe
   cd $ServerName
-  echo "\033[1;32m服务器目录是: $DirName/minecraftbe/$ServerName\033[0m"
+  echo -e "\033[1;32m服务器目录是: $DirName/minecraftbe/$ServerName\033[0m"
 
   # Remove existing scripts
   rm start.sh stop.sh restart.sh
@@ -131,7 +131,7 @@ if [ -d "$ServerName" ]; then
   fi
 
   # Setup completed
-  echo "\033[1;32m服务器建立完成，正在启动Minecraft $ServerName 服务器...\033[0m"
+  echo -e "\033[1;32m服务器建立完成，正在启动Minecraft $ServerName 服务器...\033[0m"
   sudo systemctl start $ServerName.service
 
   # Sleep for 4 seconds to give the server time to start
@@ -161,7 +161,7 @@ if [[ "$CPUArch" == *"aarch"* || "$CPUArch" == *"arm"* ]]; then
   # Check if latest available QEMU version is at least 3.0 or higher
   QEMUVer=$(apt-cache show qemu-user-static | grep Version | awk 'NR==1{ print $2 }' | cut -c3-3)
   if [[ "$QEMUVer" -lt "3" ]]; then
-    echo "\033[1;33m可用的QEMU版本不足以模拟x86_64，正下载替代版本...\033[0m"
+    echo -e "\033[1;33m可用的QEMU版本不足以模拟x86_64，正下载替代版本...\033[0m"
     if [[ "$CPUArch" == *"armv7"* || "$CPUArch" == *"armhf"* ]]; then
       wget http://ftp.us.debian.org/debian/pool/main/q/qemu/qemu-user-static_3.1+dfsg-7_armhf.deb
       wget http://ftp.us.debian.org/debian/pool/main/b/binfmt-support/binfmt-support_2.2.0-2_armhf.deb
@@ -180,7 +180,7 @@ if [[ "$CPUArch" == *"aarch"* || "$CPUArch" == *"arm"* ]]; then
   if [ -n "`which qemu-x86_64-static`" ]; then
     echo "成功安装了QEMU-x86_64-static"
   else
-    echo "\033[1;31mQEMU-x86_64-static未能成功安装 -- 请参见上述错误信息。\033[0m"
+    echo -e "\033[1;31mQEMU-x86_64-static未能成功安装 -- 请参见上述错误信息。\033[0m"
     exit 1
   fi
   
@@ -260,7 +260,7 @@ if [ "$answer" != "${answer#[Yy]}" ]; then
 fi
 
 # Finished!
-echo "\033[1;32m服务器建立完成，正在启动Minecraft $ServerName 服务器...\033[0m"
+echo -e "\033[1;32m服务器建立完成，正在启动Minecraft $ServerName 服务器...\033[0m"
 sudo systemctl start $ServerName.service
 
 # Wait up to 20 seconds for server to start
@@ -277,7 +277,7 @@ done
 if ! screen -list | grep -q "$ServerName"; then
   echo "服务器未能在20秒内启动成功"
 else
-  echo "\033[1;32m服务器建立完成，正在启动Minecraft $ServerName 服务器...\033[0m"
+  echo -e "\033[1;32m服务器建立完成，正在启动Minecraft $ServerName 服务器...\033[0m"
 fi
 
 # Attach to screen
