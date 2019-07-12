@@ -21,7 +21,10 @@ chmod +x SetupMinecraft.sh
 Ubuntu / Ubuntu Server 18.04.2 | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=ubuntu) |
 Debian Stretch / Buster | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=debian) |
 PC X86_64 | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=linux) |
-Udoo X86 | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=Linux) |
 Intel Compute Stick | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=intel) |
-ARM 64bit | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=Ubuntu) | 受限于性能，运行极度缓慢
-Raspberry Pi 3b+ | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=Raspberry-Pi) | 
+Raspberry Pi 3b+ | ![基岩服务器建设工具](https://img.shields.io/badge/Testing-Pass-green.svg?logo=Raspberry-Pi) | 受限于性能，运行极度缓慢
+
+## 更新日志
+
+![基岩服务器建设工具](https://img.shields.io/badge/Version-1.0-green.svg?logo=github)
+* 来自大佬的原始文件
