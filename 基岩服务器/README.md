@@ -7,15 +7,11 @@
 ## 怎么做？
 在你的用户根目录下执行以下命令：
 ```shell
-wget https://raw.githubusercontent.com/TheRemote/MinecraftBedrockServer/master/SetupMinecraft.sh<br>
-chmod +x SetupMinecraft.sh<br>
-./SetupMinecraft.sh<br>
+wget https://raw.githubusercontent.com/mattholy/Minecraft/master/%E5%9F%BA%E5%B2%A9%E6%9C%8D%E5%8A%A1%E5%99%A8/SetupMinecraft.sh
+chmod +x SetupMinecraft.sh
+./SetupMinecraft.sh
 ```
 
-wget https://raw.githubusercontent.com/TheRemote/MinecraftBedrockServer/master/SetupMinecraft.sh<br>
-chmod +x SetupMinecraft.sh<br>
-./SetupMinecraft.sh<br>
-<br>
 <b>Tested Distributions</b><br>
 -Ubuntu / Ubuntu Server 18.04.2<br>
 -Debian Stretch / Buster<br>
