@@ -14,7 +14,9 @@ chmod +x SetupMinecraft.sh
 
 ## 已经测试的平台
 
-当前版本： ![基岩服务器建设工具](https://img.shields.io/badge/Version-1.0-green.svg?logo=github)
+当前工具版本： ![基岩服务器建设工具](https://img.shields.io/badge/Version-1.0-green.svg?logo=github)
+
+当前服务器版本：![基岩服务器建设工具](https://img.shields.io/badge/MinecraftServer-1.12.0-green.svg?logo=github)
 
 测试平台 | 测试结果 | 备注
 ------------ | ------------- | -------------
@@ -26,5 +28,5 @@ Raspberry Pi 3b+ | ![基岩服务器建设工具](https://img.shields.io/badge/T
 
 ## 更新日志
 
-![基岩服务器建设工具](https://img.shields.io/badge/Version-1.0-green.svg?logo=github)
+### 1.0
 * 来自大佬的原始文件
