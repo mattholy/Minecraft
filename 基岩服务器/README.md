@@ -6,7 +6,7 @@
 
 ## 怎么做？
 在你的用户根目录下执行以下命令：
-```shell
+```Shell
 wget https://raw.githubusercontent.com/mattholy/Minecraft/master/%E5%9F%BA%E5%B2%A9%E6%9C%8D%E5%8A%A1%E5%99%A8/SetupMinecraft.sh
 chmod +x SetupMinecraft.sh
 ./SetupMinecraft.sh
